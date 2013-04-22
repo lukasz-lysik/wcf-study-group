@@ -57,6 +57,12 @@
   <ItemGroup>
     <Content Include="Examples\01-Config-File.txt" />
     <Content Include="Examples\02-Config-Code.txt" />
+    <Content Include="Examples\03-BindingConfig-File.txt" />
+    <Content Include="Examples\04-BindingConfig-Code.txt" />
+    <Content Include="Examples\05-BehaviorConfig-File.txt" />
+    <Content Include="Examples\06-BehaviorConfig-Code.txt" />
+    <Content Include="Examples\07-MEX-File.txt" />
+    <Content Include="Examples\08-MEX-Code.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
