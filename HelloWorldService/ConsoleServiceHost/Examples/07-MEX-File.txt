@@ -1,0 +1,6 @@
+﻿        <endpoint address="http://localhost:9000/mex"
+                  binding="mexHttpBinding"
+                  contract="IMetadataExchange" />
+        <endpoint address="net.tcp://localhost:9001/mex"
+                  binding="mexHttpBinding"
+                  contract="IMetadataExchange" />

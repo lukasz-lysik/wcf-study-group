@@ -1,0 +1,7 @@
+﻿var smb = new ServiceMetadataBehavior();
+            smb.HttpGetEnabled = true;
+            host.Description.Behaviors.Add(smb);
+
+		var sd = new ServiceDebugBehavior();
+            sd.IncludeExceptionDetailInFaults = true;
+            host.Description.Behaviors.Add(sd);

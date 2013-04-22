@@ -1,0 +1,11 @@
+﻿            host.AddServiceEndpoint(typeof(HelloWorldService.IHelloWorldService),
+                new BasicHttpBinding(),
+                "http://localhost:9000/helloworld/basic");
+
+            host.AddServiceEndpoint(typeof(HelloWorldService.IHelloWorldService),
+                new WSHttpBinding(),
+                "http://localhost:9000/helloworld/ws");
+
+            host.AddServiceEndpoint(typeof(HelloWorldService.IHelloWorldService),
+                new NetTcpBinding(),
+                "net.tcp://localhost:9001/helloworld");

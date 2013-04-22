@@ -1,0 +1,14 @@
+﻿ <endpoint address="basic2"
+                  binding="basicHttpBinding"
+                  bindingConfiguration="MyBindingConfiguration"
+                  contract="HelloWorldService.IHelloWorldService" />
+
+<bindings>
+      <basicHttpBinding>
+        <binding name="MyBindingConfiguration">
+          <security mode="Transport">
+            <transport clientCredentialType="Basic" />
+           </security>
+        </binding>
+      </basicHttpBinding>
+    </bindings>

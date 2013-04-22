@@ -1,0 +1,9 @@
+﻿            host.AddServiceEndpoint(
+                ServiceMetadataBehavior.MexContractName,
+                MetadataExchangeBindings.CreateMexHttpBinding(),
+                "http://localhost:9000/mex");
+
+            host.AddServiceEndpoint(
+                ServiceMetadataBehavior.MexContractName,
+                MetadataExchangeBindings.CreateMexTcpBinding(),
+                "net.tcp://localhost:9001/mex");

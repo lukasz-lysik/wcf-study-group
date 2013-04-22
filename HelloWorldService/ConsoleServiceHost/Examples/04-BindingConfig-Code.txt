@@ -1,0 +1,7 @@
+﻿var b = new BasicHttpBinding();
+            b.Security.Mode = BasicHttpSecurityMode.Transport;
+            b.Security.Transport.ClientCredentialType = HttpClientCredentialType.Basic;
+
+            host.AddServiceEndpoint(typeof(HelloWorldService.IHelloWorldService),
+                b,
+                "http://localhost:9000/helloworld/basic2");

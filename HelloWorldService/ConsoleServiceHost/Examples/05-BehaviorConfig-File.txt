@@ -1,0 +1,11 @@
+﻿<service name="HelloWorldService.HelloWorldService" 
+               behaviorConfiguration="MyBehavior">
+
+<behaviors>
+      <serviceBehaviors>
+        <behavior name="MyBehavior">
+          <serviceMetadata httpGetEnabled="True"/>
+          <serviceDebug includeExceptionDetailInFaults="False" />
+        </behavior>
+      </serviceBehaviors>
+    </behaviors>
