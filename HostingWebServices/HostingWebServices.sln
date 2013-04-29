@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldServiceLibrary", "HelloWorldServiceLibrary\HelloWorldServiceLibrary.csproj", "{819C8530-4D2D-425E-8705-0C422F5E6DF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Web Service", "0 - Web Service", "{F42D2711-1B67-4E0C-8E6F-F5D8B3CAE3AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Self Hosting", "1 - Self Hosting", "{6B32CB29-C5E7-46AB-85C4-8DECAAFF4F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHosting", "SelfHosting\SelfHosting.csproj", "{341683D4-9B07-4B2D-8BE0-BFCF1479F6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostingWindowsService", "SelfHostingWindowsService\SelfHostingWindowsService.csproj", "{B3A050FC-B069-470E-8669-9F0C3D701778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Managed Hosting", "2 - Managed Hosting", "{DAB90ECC-B50D-4083-AAB6-9103299A4BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SvcFileHosting", "SvcFileHosting\SvcFileHosting.csproj", "{E9715A54-C378-4BA2-A4E6-4E574AD36D49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{819C8530-4D2D-425E-8705-0C422F5E6DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819C8530-4D2D-425E-8705-0C422F5E6DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819C8530-4D2D-425E-8705-0C422F5E6DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819C8530-4D2D-425E-8705-0C422F5E6DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341683D4-9B07-4B2D-8BE0-BFCF1479F6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341683D4-9B07-4B2D-8BE0-BFCF1479F6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341683D4-9B07-4B2D-8BE0-BFCF1479F6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341683D4-9B07-4B2D-8BE0-BFCF1479F6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A050FC-B069-470E-8669-9F0C3D701778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A050FC-B069-470E-8669-9F0C3D701778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A050FC-B069-470E-8669-9F0C3D701778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A050FC-B069-470E-8669-9F0C3D701778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9715A54-C378-4BA2-A4E6-4E574AD36D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9715A54-C378-4BA2-A4E6-4E574AD36D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9715A54-C378-4BA2-A4E6-4E574AD36D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9715A54-C378-4BA2-A4E6-4E574AD36D49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{819C8530-4D2D-425E-8705-0C422F5E6DF5} = {F42D2711-1B67-4E0C-8E6F-F5D8B3CAE3AD}
+		{341683D4-9B07-4B2D-8BE0-BFCF1479F6B8} = {6B32CB29-C5E7-46AB-85C4-8DECAAFF4F38}
+		{B3A050FC-B069-470E-8669-9F0C3D701778} = {6B32CB29-C5E7-46AB-85C4-8DECAAFF4F38}
+		{E9715A54-C378-4BA2-A4E6-4E574AD36D49} = {DAB90ECC-B50D-4083-AAB6-9103299A4BF2}
+	EndGlobalSection
+EndGlobal
